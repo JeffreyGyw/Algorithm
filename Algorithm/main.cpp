@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include "countall.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    backtrack(0);
     return 0;
 }
